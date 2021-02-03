@@ -1,3 +1,4 @@
 aclImdb*
 *ipynb_checkpoints
+data/*.pkl
 
