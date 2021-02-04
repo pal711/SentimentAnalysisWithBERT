@@ -1,4 +1,5 @@
 aclImdb*
 *ipynb_checkpoints
 data/*.pkl
+Saved_models/*.pt
 
