@@ -16,7 +16,7 @@ class ReviewDataset(Dataset):
     
     def __getitem__(self, item):
         review= self.reviews[item]
-        review= BeautifulSoup(review, "html.parser").get_text()
+        review= BeautifulSoup(review, "html.parser").get_text() #to remove html tags from the reviews
         label= self.labels[item]
         
         encodings= self.tokenizer(
